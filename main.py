@@ -11,6 +11,8 @@ msg = pyautogui.locateOnScreen(Screen_Img, grayscale=True,confidence=.9)
 while True:
     if keyboard.is_pressed('s'):
         break
+    elif msg == None:
+        print("can't find the same Img")
     else:
         x,y,width,height=msg
         print ("The location of the Img is:X={},Y={}".format(x,y))
