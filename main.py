@@ -3,9 +3,6 @@ import pyautogui
 from PIL import ImageGrab, Image
 import keyboard
 import os
-import goto
-from goto import with_goto
-from goto import goto, label
 
 # path setting
 path = 'E:/WPS_Sync_Files/py_mouse_click/IMG/'
