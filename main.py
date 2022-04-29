@@ -7,7 +7,7 @@ import keyboard
 Screen_Img= Image.open("screen.jpeg")
 msg = pyautogui.locateOnScreen(Screen_Img, grayscale=True,confidence=.9)
 
-# run code untill press s on keyboard
+# run code and if you want to stop, just press 's' on keyboard
 while True:
     if keyboard.is_pressed('s'):
         break
