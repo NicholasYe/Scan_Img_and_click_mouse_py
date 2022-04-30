@@ -1,8 +1,8 @@
-from time import sleep
-import pyautogui
-from PIL import ImageGrab, Image
-import keyboard
 import os
+import pyautogui
+import keyboard
+from time import sleep
+from PIL import ImageGrab, Image
 
 # path setting
 path = 'E:/WPS_Sync_Files/py_mouse_click/IMG/'
@@ -33,5 +33,5 @@ def func():
             pyautogui.click(x,y,button='left')
 
 if __name__ == "__main__":
-    while(1):
+    while True:
         func()
